@@ -1,0 +1,195 @@
+    h1 {
+        color: white;
+        text-align: center;
+    }
+
+    html {
+        background-image: url(/images/dark-stone-texture-background.jpg);
+
+    }
+    hr{
+        width: 80%;
+    }
+
+    #imagese {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin-top: 5%;
+        
+
+    }
+
+    div>img {
+    width: 40%;
+    }
+
+    .v-line {
+        display: flex;
+        flex-direction: row;
+        border-left: solid white;
+        margin-top: -5%;
+        height: 75%;
+        left: 58%;
+        position: absolute;
+    }
+
+    #text {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        color: white;
+        width: 40%;
+        margin-top: -15%;
+        
+        
+    }
+
+    #a {
+        background-image: url(https://th.bing.com/th/id/OIP.bcSF-HgzQwedOVhT5hrMhgHaIe?rs=1&pid=ImgDetMain);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+
+    #c {
+        background-image: url(https://assets01.sdd1.ch/assets/lbwp-cdn/mobilesport/files/2011/02/Bild_Uebung_pb_02_10_f_1-225x190.jpg);
+        background-size: 133%;
+        background-repeat: no-repeat;
+    }
+
+    #d {
+        background-image: url(https://th.bing.com/th/id/OIP.sMd4d8TCqnkNL9v9zZ7IRgHaHa?w=195&h=195&c=7&r=0&o=5&pid=1.7);
+        background-size: 115%;
+        background-repeat: no-repeat;
+    }
+
+    #e {
+        background-image: url(https://www.capricornreisen.ch/media/uploads/offers/63353/images/hofbauer-samuelsson.jpg?w=1000);
+        background-size: 170%;
+        background-repeat: no-repeat;
+    }
+
+    #f {
+        background-image: url(https://live.staticflickr.com/7195/6905280604_af488c5043.jpg);
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+
+    #images {
+        margin-top: 45%;
+
+    }
+
+    a {
+        font-size: 20px;
+        border: 1px;
+        border-style: hidden;
+        border-color: none;
+        color: white;
+        text-align: center;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: -15%;
+        width: 20%;
+        text-decoration: none;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    @media screen and (max-width:600px) {
+
+    #imagese {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+       
+    }
+
+     .v-line {
+        display: none;
+     }
+
+    #text {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 10%;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30%;
+    }
+
+   
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #a {
+        background-image: url(https://th.bing.com/th/id/OIP.bcSF-HgzQwedOVhT5hrMhgHaIe?rs=1&pid=ImgDetMain);
+        background-size: 100%;
+        width: 50%;
+        padding-bottom: 30%;
+        background-repeat: no-repeat;
+    }
+
+    #b {
+        background-image: url(https://th.bing.com/th/id/OIP.mFn230l9pp7cyYlp6jnG_gHaE8?w=247&h=180&c=7&r=0&o=5&pid=1.7);
+        background-size: 155%;
+        width: 50%;
+        padding-bottom: 29%;
+        background-repeat: no-repeat;
+    }
+
+    #c {
+        background-image: url(https://assets01.sdd1.ch/assets/lbwp-cdn/mobilesport/files/2011/02/Bild_Uebung_pb_02_10_f_1-225x190.jpg);
+        background-size: 133%;
+        width: 50%;
+        padding-bottom: 28%;
+        background-repeat: no-repeat;
+    }
+
+    #d {
+        background-image: url(https://th.bing.com/th/id/OIP.sMd4d8TCqnkNL9v9zZ7IRgHaHa?w=195&h=195&c=7&r=0&o=5&pid=1.7);
+        background-size: 115%;
+        width: 50%;
+        padding-bottom: 26%;
+        background-repeat: no-repeat;
+    }
+
+    #e {
+        background-image: url(https://www.capricornreisen.ch/media/uploads/offers/63353/images/hofbauer-samuelsson.jpg?w=1000);
+        background-size: 170%;
+        width: 50%;
+        padding-bottom: 28%;
+        background-repeat: no-repeat;
+    }
+
+    #f {
+        background-image: url(https://live.staticflickr.com/7195/6905280604_af488c5043.jpg);
+        background-size: 110%;
+        width: 50%;
+        padding-bottom: 28%;
+        background-repeat: no-repeat;
+    }
+
+    a {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
